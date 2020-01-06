@@ -1,15 +1,21 @@
 .container {
     background-color: #c00025;
     width: 100%;
-    max-width: 550px;
+    max-width: 500px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; */
+
 }
 .display {
     margin-top: 25px;
     height: 100px;
-    width: 450px;
+    width: 400px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -19,4 +25,67 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    margin-left: 28px;
   }
+button{
+      height: 80px;
+      width: 75px;
+      margin: 4%;
+      border-radius: 50%;
+
+}
+  .operator-buttons{
+    background-color: rgb(0,114,145);
+    color: white;
+    font-size: 30px;
+
+  }
+  .number-buttons{
+      background-color: navy;
+      color: white;
+      font-size: 30px;
+    
+  }
+  .special-buttons{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+  }
+.buttons{
+    /* border: 2px solid silver; */
+    display: flex;
+    width: 80%;
+    height: 550px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.c1{
+    /* border: 2px solid blue; */
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.c2{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    margin-top: 2%;
+}
+.logo{
+    /* border: 2px solid gold; */
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.number-buttons{
+    &:nth-child(10){
+        width: 50%;
+    }
+}
+    
